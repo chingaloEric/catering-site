@@ -54,6 +54,13 @@ body {
   text-decoration: none;
   color: rgb(70, 70, 70);
 }
+
 .copy-right {
   text-align: center;
+}
+
+.cash {
+  color: #0d6e98;
+  font-family: courier, arial, helvetica;
+  font-weight: 900;
 }
