@@ -1,0 +1,32 @@
+.service-container {
+}
+
+.service-image-wrapper {
+  height: 400px;
+  width: 600px;
+  margin: 0 20px;
+  margin: 0 auto;
+}
+
+.service-image-wrapper > img {
+  height: 80%;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.cash {
+  color: #0d6e98;
+  font-family: courier, arial, helvetica;
+  font-weight: 900;
+}
+
+#menu {
+  text-decoration: none;
+  color: #0d6e98;
+}
