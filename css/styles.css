@@ -11,6 +11,10 @@ body {
   justify-content: center;
 }
 
+.navigation {
+  background-color: #ffffff;
+}
+
 .nav-links {
   border: 2px solid transparent;
   text-decoration: none;
@@ -29,6 +33,20 @@ body {
 
 .nav-links:hover {
   color: #0d6e98;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* main content */
+.cash {
+  color: #0d6e98;
+  font-family: courier, arial, helvetica;
+  font-weight: 900;
 }
 
 /* footer */
@@ -57,10 +75,4 @@ body {
 
 .copy-right {
   text-align: center;
-}
-
-.cash {
-  color: #0d6e98;
-  font-family: courier, arial, helvetica;
-  font-weight: 900;
 }
