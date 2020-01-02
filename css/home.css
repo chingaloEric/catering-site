@@ -1,0 +1,39 @@
+.introduction-container > p {
+  margin: 0 auto;
+}
+
+.introduction {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 1.4em;
+  color: #0d6e98;
+  width: 340px;
+  border-right: 2px solid rgbs(0, 0, 0, 0.87);
+  animation: animateIntro 5s steps(90, end);
+}
+
+@keyframes animateIntro {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 340px;
+  }
+}
+
+.slideshow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.slideshow {
+  width: 600px;
+  height: 350px;
+  background-image: url("../images/caterers/image-1.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 1s ease-in;
+  border-radius: 5px;
+}
