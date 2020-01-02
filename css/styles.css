@@ -43,7 +43,7 @@ body {
   align-items: left;
   justify-content: left;
 }
-.icons > img {
+.icons > a > img {
   height: 3vh;
   width: auto;
   color: #0d6e98;
