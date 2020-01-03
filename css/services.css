@@ -1,3 +1,14 @@
+.service-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-gap: 0.5em;
+  grid-auto-columns: minmax(200px, auto);
+}
+
+.service-text > h3 {
+  color: #0d6e98;
+}
+
 .service-image-wrapper {
   height: 400px;
   width: 600px;
