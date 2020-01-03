@@ -51,6 +51,26 @@ body {
   font-weight: 900;
 }
 
+.text,
+.dish-card-container,
+.service-container,
+.slideshow-container,
+.about-container {
+  position: relative;
+  animation: slidefrombottom 0.9s;
+}
+
+@keyframes slidefrombottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
 /* footer */
 .footer-wrapper {
   display: grid;

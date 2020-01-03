@@ -57,3 +57,14 @@
 .text > small {
   color: #0d6e98;
 }
+
+@keyframes slidefrombottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
