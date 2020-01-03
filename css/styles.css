@@ -5,6 +5,8 @@ body {
 /* nav bar */
 .navigation,
 .social-media {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,7 +14,7 @@ body {
 }
 
 .navigation {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .nav-links {
@@ -39,7 +41,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
 }
 
 /* main content */
