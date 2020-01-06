@@ -25,7 +25,7 @@
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  transition: 200ms linear;
+  transition: transform 600ms linear;
 }
 
 .service-image:hover {
